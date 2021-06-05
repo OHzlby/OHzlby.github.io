@@ -1,0 +1,142 @@
+
+/*
+
+####################################
+#                                  #
+#      DEVELOPED BY HUE SHADED     #
+#                                  #
+####################################
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+body{
+    background-image: url(Untitled-4.png);
+    overflow-x: hidden;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline 2px;
+}
+
+p{
+    font-family: 'Poppins';
+    color: white;
+}
+
+.par{
+    border-radius: 15px;
+    background-color: #444;
+    border: #00FFB1 solid 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #00FFB1, 0 0 20px #00FFB1, 0 0 30px #00FFB1, 0 0 40px #00FFB1, 0 0 50px #00FFB1, 0 0 60px #00FFB1, 0 0 70px #00FFB1;
+    }
+    to {
+      text-shadow: 0 0 20px #00FFB1, 0 0 30px #00FFB1, 0 0 40px #00FFB1, 0 0 50px #00FFB1, 0 0 60px #00FFB1, 0 0 70px #00FFB1, 0 0 80px #00FFB1;
+    }
+  }
+
+#icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 45px;
+    color: white;
+}
+
+#icon:hover{
+    font-size: 45px;
+    color: #00FFB1;
+}
+
+#video{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.video{
+    border-radius: 10px;
+    border: #7289da solid 3px;
+    margin-bottom: 25px;
+}
+
+.footer{
+    position: fixed;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    background-color: #222;
+}
+
+#link{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#link:hover{
+    color: #00FFB1;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#qr{
+    font-size: 28px;
+}
+
+#head{
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    font-family: 'Hussar';
+    text-decoration: #00FFB1 underline 5px;
+    font-size: 32px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div{
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.iconhead{
+    color: white;
+    float: right;
+    padding-right: 10px;
+}
+
+.iconhead:hover{
+    color: #00FFB1;
+    cursor: pointer;
+}
+
+#twitter{
+    margin-left: 10px;
+}
+
+.title{
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
