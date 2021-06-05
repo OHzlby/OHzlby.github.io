@@ -101,12 +101,13 @@ p{
     background-color: #222;
     padding: 20px;
     color: white;
-    font-family: 'Hussar';
+    font-family: 'Poppins';
     text-decoration: #00FFB1 underline 5px;
     font-size: 32px;
     border-radius: 10px;
     margin-left: 20px;
     margin-right: 20px;
+    font-weight: bold;
 }
 
 .div{
@@ -131,7 +132,7 @@ p{
     cursor: pointer;
 }
 
-#twitter{
+.iconspacing{
     margin-left: 10px;
 }
 
@@ -139,4 +140,9 @@ p{
     margin: 0;
     font-size: 28px;
     font-weight: bold;
+}
+
+#69{
+    padding: 0;
+    margin: 0;
 }
