@@ -9,26 +9,21 @@
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
 
 body{
-    background-color: #333;
+    background-image: url(Untitled-4.png);
+    overflow-x: hidden;
 }
 
-.title{
-    font-family: 'Hussar';
-    font-size: 50px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-    margin-top: 35px;
+a {
+    color: #ffffff;
+    text-decoration: underline 2px;
 }
 
 p{
-    font-family: 'Roboto Mono';
+    font-family: 'Poppins';
     color: white;
 }
 
@@ -100,4 +95,48 @@ p{
 
 #qr{
     font-size: 28px;
+}
+
+#head{
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    font-family: 'Hussar';
+    text-decoration: #00FFB1 underline 5px;
+    font-size: 32px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.div{
+    background-color: #222;
+    padding: 20px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.iconhead{
+    color: white;
+    float: right;
+    padding-right: 10px;
+}
+
+.iconhead:hover{
+    color: #00FFB1;
+    cursor: pointer;
+}
+
+#twitter{
+    margin-left: 10px;
+}
+
+.title{
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
 }
