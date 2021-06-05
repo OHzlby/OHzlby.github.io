@@ -97,3 +97,7 @@ p{
     font-weight: bold;
     text-decoration: underline;
 }
+
+#qr{
+    font-size: 28px;
+}
